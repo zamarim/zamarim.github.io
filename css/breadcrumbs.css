@@ -6,5 +6,5 @@
 }
 
 #breadcrumbs > li:not(:first-of-type)::before {
-	content: "→";
+	content: "→‎";
 }
