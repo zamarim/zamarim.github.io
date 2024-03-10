@@ -8,3 +8,11 @@
 #breadcrumbs > li:not(:first-of-type)::before {
 	content: "→‎";
 }
+
+.ניקוד > dt {
+	font-size: 150%;
+}
+
+.ניקוד > dd {
+	font-size: 200%;
+}
