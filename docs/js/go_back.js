@@ -29,7 +29,7 @@ const ot2ascii = (ot) => {
 		case 'ה':
 			return "H+";
 			break;
-		case 'ן':
+		case 'ו':
 			return "W+";
 			break;
 		case 'ז':
