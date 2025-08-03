@@ -81,7 +81,7 @@ const letter2number = letter => {
 		case 'ת':
 			return 400;
 		default:
-			return ot;
+			return "";
 	}
 };
 
@@ -112,3 +112,4 @@ const sum = document.querySelector(".gimatria > dd");
 console.log(sum);
 
 sum.innerText = numeri;
+sum.innerText = sum.innerText + "=" + eval(sum.innerText)
